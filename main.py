@@ -1,0 +1,12 @@
+veg = str(input('Enter your vegetable: '))
+veg2 = str(input('Enter your 2nd vegetable: '))
+veg3 = str(input('Enter your 3rd vegetable: '))
+print(str.lower(veg + ' ' + veg2 + ' ' + veg3))
+print(str.upper(veg + ' ' + veg2 + ' ' + veg3))
+print(str.capitalize(veg + ' ' + veg2 + ' ' + veg3))
+hm_veg = input('How many veggies?')
+hm_veg2 = input('How many 2nd veggies?')
+hm_veg3 = input('How many 3rd veggies?')
+text1 = """You have: {h1} {v1}, {h2} {v2}, {h3} {v3}"""\
+    .format(h1=hm_veg, v1=veg, h2=hm_veg2, v2=veg2, h3=hm_veg3, v3=veg3)
+print(text1)
